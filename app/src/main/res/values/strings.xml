@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Success Card</string>
+    <string name="quote_5560">Is there are reward for good other than good?</string>
+    <string name="background_description">Lake house view</string>
+    <string name="g">G</string>
+    <string name="t">T</string>
+    <string name="r">R</string>
+    <string name="i">I</string>
+    <string name="guts">Guts</string>
+    <string name="respect">Respect</string>
+    <string name="integrity">Integrity</string>
+    <string name="tenacity">Tenacity</string>
+</resources>
