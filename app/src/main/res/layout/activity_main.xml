@@ -1,48 +1,47 @@
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_height="match_parent"
-    android:layout_width="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/lake"
         android:contentDescription="@string/background_description"
-        android:scaleType="centerCrop"/>
+        android:scaleType="centerCrop"
+        android:src="@drawable/lake" />
 
-        <TextView
-            android:id="@+id/wish"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="8dp"
-            android:fontFamily="serif-monospace"
-            android:textStyle="bold"
-            android:layout_centerHorizontal="true"
-            android:textColor="@android:color/white"
-            android:textAppearance="?android:textAppearanceMedium"
-            android:background="@color/background2"
-            android:text="@string/wish"
-            tools:ignore="UnusedAttribute" />
+    <TextView
+        android:id="@+id/wish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@color/background2"
+        android:fontFamily="serif-monospace"
+        android:padding="8dp"
+        android:text="@string/wish"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        tools:ignore="UnusedAttribute" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/wish"
-            android:padding="8dp"
-            android:fontFamily="serif-monospace"
-            android:textStyle="bold"
-            android:layout_centerHorizontal="true"
-            android:textColor="@android:color/white"
-            android:textAppearance="?android:textAppearanceLarge"
-            android:background="@color/background2"
-            android:text="@string/android"
-            tools:ignore="UnusedAttribute" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/wish"
+        android:layout_centerHorizontal="true"
+        android:background="@color/background2"
+        android:fontFamily="serif-monospace"
+        android:padding="8dp"
+        android:text="@string/android"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        tools:ignore="UnusedAttribute" />
 
-        <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="true">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
 
         <LinearLayout
             android:id="@+id/linear_1"
@@ -63,29 +62,29 @@
                 android:id="@+id/r"
                 android:layout_width="wrap_content"
                 android:layout_height="174dp"
-                android:textColor="@color/choiceTwo"
-                android:textStyle="bold"
-                android:textSize="150sp"
                 android:padding="4dp"
-                android:text="@string/r"/>
+                android:text="@string/r"
+                android:textColor="@color/choiceTwo"
+                android:textSize="150sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/i"
                 android:layout_width="wrap_content"
                 android:layout_height="174dp"
-                android:textColor="@color/choiceThree"
-                android:textSize="150sp"
                 android:padding="4dp"
-                android:text="@string/i"/>
+                android:text="@string/i"
+                android:textColor="@color/choiceThree"
+                android:textSize="150sp" />
 
             <TextView
                 android:id="@+id/t"
                 android:layout_width="wrap_content"
                 android:layout_height="174dp"
-                android:textColor="@color/choiceFour"
-                android:textSize="150sp"
                 android:padding="4dp"
-                android:text="@string/t"/>
+                android:text="@string/t"
+                android:textColor="@color/choiceFour"
+                android:textSize="150sp" />
 
         </LinearLayout>
 
@@ -101,60 +100,60 @@
                 android:id="@+id/guts"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textAppearance="?android:textAppearanceLarge"
-                android:textStyle="bold"
+                android:background="@color/background"
                 android:padding="4dp"
                 android:text="@string/guts"
-                android:background="@color/background"
-                android:textColor="@color/choiceOne" />
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textColor="@color/choiceOne"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/respect"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:background="@color/background"
+                android:padding="4dp"
+                android:text="@string/respect"
                 android:textAppearance="?android:textAppearanceLarge"
                 android:textColor="@color/choiceTwo"
-                android:textStyle="bold"
-                android:padding="4dp"
-                android:background="@color/background"
-                android:text="@string/respect"/>
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/integrity"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:background="@color/background"
+                android:padding="4dp"
+                android:text="@string/integrity"
                 android:textAppearance="?android:textAppearanceLarge"
                 android:textColor="@color/choiceThree"
-                android:textStyle="bold"
-                android:padding="4dp"
-                android:background="@color/background"
-                android:text="@string/integrity"/>
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/tenacity"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:background="@color/background"
+                android:padding="4dp"
+                android:text="@string/tenacity"
                 android:textAppearance="?android:textAppearanceLarge"
                 android:textColor="@color/choiceFour"
-                android:textStyle="bold"
-                android:padding="4dp"
-                android:background="@color/background"
-                android:text="@string/tenacity"/>
+                android:textStyle="bold" />
 
         </LinearLayout>
 
-        </RelativeLayout>
+    </RelativeLayout>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
+        android:background="@color/background"
         android:gravity="center"
+        android:text="@string/quote_5560"
         android:textAppearance="?android:textAppearanceMedium"
         android:textColor="@color/colorAccent"
-        android:background="@color/background"
-        android:textStyle="bold"
-        android:text="@string/quote_5560"/>
+        android:textStyle="bold" />
 
 </RelativeLayout>
